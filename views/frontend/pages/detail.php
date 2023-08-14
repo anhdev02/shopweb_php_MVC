@@ -1,0 +1,23 @@
+
+<section class="section ban-chay-nhat-tuan" id="section_661749377">
+<div class="bg section-bg fill bg-fill  bg-loaded"></div>
+    <div class="section-content relative">
+<?php $product = $data['detail']; ?>
+<div class="product-info summary entry-summary col col-fit product-summary">
+    <div class="woocommerce-product-rating"> <a href="#reviews" class="woocommerce-review-link" rel="nofollow">
+        <div class="star-rating"><span style="width:100%"><strong class="rating">5.00</strong> trên 5 dựa trên <span class="rating">1</span> đánh giá</span>
+        </div></a>
+    </div>
+    <div class="price-wrapper"><p class="price product-page-price price-not-in-stock"> <span class="woocommerce-Price-amount amount"><?= $product['product_name'] ?></strong>: <?= $product['price'] ?><span class="woocommerce-Price-currencySymbol">&#8363;</span></span></p></div>
+    <div class="product-short-description"><p><?= $product['product_detail'] ?></p></div>
+    <div class="product_meta"> <span class="sku_wrapper"></span></div>
+    <div class="thong-tin-shop">
+        <img src="<?= URL ?>asset/frontend/images/<?= $product['image'] ?>" alt="anh">
+    </div>
+    <div style="display: inline;" class="add-to-cart-button"><a href="<?= URL ?>index.php/frontend/addToCart/<?= $product['id']?>" rel="nofollow" data-product_id="276" class="ajax_add_to_cart  product_type_simple button primary is-flat mb-0 is-small">Mua hàng</a></div>
+    <div class="social-icons share-icons share-row relative"><a href="whatsapp://send?text=Balo%20laptop%20nam%20n%E1%BB%AF%20c%E1%BB%A1%20l%E1%BB%9Bn%20SID59040 - http://shop2.ninhbinhweb.net/san-pham/balo-laptop-nam-nu-co-lon-sid59040/" data-action="share/whatsapp/share" class="icon button circle is-outline tooltip whatsapp show-for-medium" title="Share on WhatsApp"><i class="icon-phone"></i></a><a href="//www.facebook.com/sharer.php?u=http://shop2.ninhbinhweb.net/san-pham/balo-laptop-nam-nu-co-lon-sid59040/" data-label="Facebook" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px');  return false;" rel="noopener noreferrer nofollow" target="_blank" class="icon button circle is-outline tooltip facebook" title="Share on Facebook"><i class="icon-facebook"></i></a><a href="//twitter.com/share?url=http://shop2.ninhbinhweb.net/san-pham/balo-laptop-nam-nu-co-lon-sid59040/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px');  return false;" rel="noopener noreferrer nofollow" target="_blank" class="icon button circle is-outline tooltip twitter" title="Share on Twitter"><i class="icon-twitter"></i></a><a href="mailto:enteryour@addresshere.com?subject=Balo%20laptop%20nam%20n%E1%BB%AF%20c%E1%BB%A1%20l%E1%BB%9Bn%20SID59040&body=Check%20this%20out:%20http://shop2.ninhbinhweb.net/san-pham/balo-laptop-nam-nu-co-lon-sid59040/" rel="nofollow" class="icon button circle is-outline tooltip email" title="Email to a Friend"><i class="icon-envelop"></i></a><a href="//pinterest.com/pin/create/button/?url=http://shop2.ninhbinhweb.net/san-pham/balo-laptop-nam-nu-co-lon-sid59040/&media=http://shop2.ninhbinhweb.net/wp-content/uploads/2018/07/a1.jpg&description=Balo%20laptop%20nam%20n%E1%BB%AF%20c%E1%BB%A1%20l%E1%BB%9Bn%20SID59040" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px');  return false;" rel="noopener noreferrer nofollow" target="_blank" class="icon button circle is-outline tooltip pinterest" title="Pin on Pinterest"><i class="icon-pinterest"></i></a><a href="//plus.google.com/share?url=http://shop2.ninhbinhweb.net/san-pham/balo-laptop-nam-nu-co-lon-sid59040/" target="_blank" class="icon button circle is-outline tooltip google-plus" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px');  return false;" rel="noopener noreferrer nofollow" title="Share on Google+"><i class="icon-google-plus"></i></a><a href="//www.linkedin.com/shareArticle?mini=true&url=http://shop2.ninhbinhweb.net/san-pham/balo-laptop-nam-nu-co-lon-sid59040/&title=Balo%20laptop%20nam%20n%E1%BB%AF%20c%E1%BB%A1%20l%E1%BB%9Bn%20SID59040" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px');  return false;" rel="noopener noreferrer nofollow" target="_blank" class="icon button circle is-outline tooltip linkedin" title="Share on LinkedIn"><i class="icon-linkedin"></i></a></div>
+</div>
+</div>
+</div>
+</section>
+   
